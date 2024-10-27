@@ -1,6 +1,10 @@
 import pandas as pd
 import re
 
+'''@uthor: José Luis García Quinayás
+City: Popayán - Cauca
+Date: 26/Oct/2024'''
+
 # ubicación del archivo ventas
 file_path = "O:\\jose-test\\ventas1.xlsx"
 

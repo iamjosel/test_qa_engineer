@@ -1,5 +1,9 @@
 import pandas as pd
 
+'''@uthor: José Luis García Quinayás
+City: Popayán - Cauca
+Date: 26/Oct/2024'''
+
 file_path = r'O:\jose-test\ventas1.xlsx'  # Usar cadena sin formato para evitar caracteres de escape
 df = pd.read_excel(file_path, engine='openpyxl')  # Especificar el motor
 

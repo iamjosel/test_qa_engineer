@@ -2,6 +2,10 @@ import pandas as pd
 from datetime import datetime
 import re
 
+'''@uthor: José Luis García Quinayás
+City: Popayán - Cauca
+Date: 26/Oct/2024'''
+
 # Ruta del archivo CSV
 file_path = "O:\documentos\ventas.xlsx"
 

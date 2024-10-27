@@ -1,6 +1,11 @@
 import pandas as pd
 import re
 from datetime import datetime
+
+'''@uthor: José Luis García Quinayás
+City: Popayán - Cauca
+Date: 26/Oct/2024'''
+
 # Ruta del archivo de datos de ventas
 file_path = "O:\\documentos\\ventas.xlsx"
 data = pd.read_excel(file_path)
