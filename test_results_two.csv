@@ -1,0 +1,11 @@
+Test ID,Descripción,Resultado,Descripción del Resultado,Número de Incidencias,Comentarios
+CP01,Validar formato de 'fecha_venta' YYYY-MM-DD,Fallido,285 errores encontrados,285,
+CP02,Validar unicidad de 'id_producto',Fallido,1716 errores encontrados,1716,
+CP03,Validar que 'precio' es un número positivo,Fallido,6085 errores encontrados,6085,
+CP04,Validar que 'cantidad_vendida' es un entero positivo,Aprobado,,0,
+CP05,Asegura que 'total_venta' coincide con 'precio' * 'cantidad_vendida',Fallido,5847 errores encontrados,5847,
+CP06,Verifica que 'nombre_cliente' no esté vacío,Fallido,43 errores encontrados,43,
+CP07,Asegura que 'categoria' contiene solo categorías válidas,Fallido,-1325 errores encontrados,-1325,
+CP08,Verifica que 'region' contenga valores permitidos,Fallido,-4908 errores encontrados,-4908,
+CP09,Asegura que 'metodo_pago' contiene métodos válidos,Fallido,-1518 errores encontrados,-1518,
+CP10,Verifica que no existan filas duplicadas,Fallido,91 errores encontrados,91,

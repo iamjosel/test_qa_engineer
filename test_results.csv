@@ -1,0 +1,18 @@
+Test ID,Descripción,Resultado,Descripción del Resultado,Número de Incidencias,Comentarios
+CP01,Validar formato de 'fecha_venta' YYYY-MM-DD,Fallido,285 errores encontrados,285,
+CP02,Validar unicidad de 'id_producto',Fallido,1716 errores encontrados,1716,
+CP03,Validar que 'precio' es un número positivo,Fallido,6085 errores encontrados,6085,
+CP04,Validar que 'cantidad_vendida' es un entero positivo,Aprobado,,0,
+CP05,Asegura que 'total_venta' coincide con 'precio' * 'cantidad_vendida',Fallido,5847 errores encontrados,5847,
+CP06,Verifica que 'nombre_cliente' no esté vacío,Fallido,43 errores encontrados,43,
+CP07,Asegura que 'categoria' contiene solo categorías válidas,Fallido,-1325 errores encontrados,-1325,
+CP08,Verifica que 'region' contenga valores permitidos,Fallido,-4908 errores encontrados,-4908,
+CP09,Asegura que 'metodo_pago' contiene métodos válidos,Fallido,-1518 errores encontrados,-1518,
+CP10,Verifica que no existan filas duplicadas,Fallido,91 errores encontrados,91,
+CP11,Validar que 'fecha_venta' no está en el futuro,Aprobado,La columna 'fecha_venta' no contiene fechas en el futuro.,0,
+CP12,Verificar que 'nombre_cliente' no contenga números ni caracteres especiales,Fallido,5316 errores encontrados,5316,Los valores en 'nombre_cliente' solo contienen letras y espacios.
+CP13,Verificar que el 'id_producto' tiene formato alfanumérico,Aprobado,El 'id_producto' es alfanumérico.,0,
+CP14,Validar que 'precio' no excede un valor razonable,Fallido,260 errores encontrados,260,'precio' no excede el límite de 10000.
+CP15,Validar que 'cantidad_vendida' no excede una cantidad máxima lógica,Fallido,177 errores encontrados,177,'cantidad_vendida' es menor que 1000.
+CP16,Validar que 'cantidad_vendida' no excede una cantidad máxima lógica,Fallido,3131 errores encontrados,3131,'cantidad_vendida' es menor que 10.
+CP17,Validar que 'nombre_producto' no esté vacío,Fallido,30 errores encontrados,30,
