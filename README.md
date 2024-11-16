@@ -15,3 +15,6 @@ Esta prueba técnica evaluó mis habilidades en muchos aspectos, muchos retos, e
 
 ### Gestión del Proyecto
 Enlace de trello del proyecto: https://trello.com/b/xZQIC95L
+
+### Evidencia de la ejecución de algunso casos de prueba
+https://drive.google.com/drive/folders/18K_tDK8z5UsTts_qCcRWa79_gwsM8QHR?usp=sharing
